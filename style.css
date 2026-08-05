@@ -1,11 +1,25 @@
-*{
+*
+@font-face {
+    font-family: "Built Titling";
+    src: url("fonts/BuiltTitling-rg.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Built Titling";
+    src: url("fonts/BuiltTitling-bd.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+{
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
 
 body{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Built Titling;
     background:#111;
     color:#fff;
     line-height:1.6;
