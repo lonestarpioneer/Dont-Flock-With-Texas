@@ -70,10 +70,25 @@ h2 {
     border-radius: 10px;
     overflow: hidden;
     transition: 0.3s;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.card:visited {
+    color: #fff;
+    text-decoration: none;
 }
 
 .card:hover {
     transform: translateY(-6px);
+    color: #fff;
+    text-decoration: none;
+}
+
+.card:active {
+    color: #fff;
+    text-decoration: none;
 }
 
 .card img {
