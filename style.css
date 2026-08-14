@@ -1,4 +1,3 @@
-*
 @font-face {
     font-family: "Built Titling";
     src: url("fonts/BuiltTitling-rg.otf") format("opentype");
@@ -12,103 +11,106 @@
     font-weight: bold;
     font-style: normal;
 }
-{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-    font-family: Built Titling;
-    background:#111;
-    color:#fff;
-    line-height:1.6;
+body {
+    font-family: "Built Titling", sans-serif;
+    background: #111;
+    color: #fff;
+    line-height: 1.6;
 }
 
-header{
-    text-align:center;
-    padding:50px 20px;
+header {
+    text-align: center;
+    padding: 20px 20px 15px;
 }
 
-header h1{
-    font-size:4rem;
-    letter-spacing:4px;
-    font-weight:900;
+header h1 {
+    margin: 0;
+    font-size: 4rem;
+    letter-spacing: 4px;
+    line-height: 0.8;
+    font-weight: bold;
 }
 
-.tagline{
-    margin-top:20px;
-    color:#bbb;
-    font-size:1.2rem;
+.tagline {
+    margin-top: 8px;
+    color: #bbb;
+    font-size: 1.1rem;
 }
 
-section{
-    width:90%;
-    max-width:1100px;
-    margin:auto;
-    padding:40px 0;
+section {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 0;
 }
 
-h2{
-    margin-bottom:20px;
-    text-transform:uppercase;
-    letter-spacing:2px;
+h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
-.grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-    gap:30px;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
 }
 
-.card{
-    background:#1d1d1d;
-    border-radius:10px;
-    overflow:hidden;
-    transition:.3s;
+.card {
+    background: #1d1d1d;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.3s;
 }
 
-.card:hover{
-    transform:translateY(-6px);
+.card:hover {
+    transform: translateY(-6px);
 }
 
-.card img{
-    width:100%;
-    display:block;
+.card img {
+    width: 100%;
+    display: block;
 }
 
-.card h3{
-    padding:15px 20px 5px;
+.card h3 {
+    padding: 15px 20px 5px;
 }
 
-.card p{
-    padding:0 20px 20px;
-    color:#ccc;
+.card p {
+    padding: 0 20px 20px;
+    color: #ccc;
 }
 
-.cta{
-    text-align:center;
+.cta {
+    text-align: center;
 }
 
-.button{
-    display:inline-block;
-    margin-top:25px;
-    padding:14px 28px;
-    background:#fff;
-    color:#111;
-    text-decoration:none;
-    font-weight:bold;
-    border-radius:40px;
-    transition:.3s;
+.button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 14px 28px;
+    background: #fff;
+    color: #111;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 40px;
+    transition: 0.3s;
 }
 
-.button:hover{
-    background:#d7d7d7;
+.button:hover {
+    background: #d7d7d7;
 }
 
-footer{
-    padding:40px;
-    text-align:center;
-    color:#888;
-    border-top:1px solid #333;
+footer {
+    padding: 40px;
+    text-align: center;
+    color: #888;
+    border-top: 1px solid #333;
 }
