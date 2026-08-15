@@ -53,6 +53,14 @@ section {
     padding: 40px 0;
 }
 
+.about p {
+    margin-bottom: 24px;
+}
+
+.about p:last-child {
+    margin-bottom: 0;
+}
+
 h2 {
     margin-bottom: 20px;
     text-transform: uppercase;
